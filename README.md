@@ -29,11 +29,11 @@ No final, foram mantidas apenas as colunas Departamento e Nome.
 🔹 Junção de Colaboradores e seus Respectivos Gerentes  
 Foi criada uma nova coluna chamada superior_name na tabela Employee.  
 O recurso Coluna Condicional do Power BI foi utilizado para atribuir o nome do gerente correspondente.  
-##🔹 Mescla de Nomes de Departamentos e Localização  
+🔹 Mescla de Nomes de Departamentos e Localização  
 A mesclagem foi realizada utilizando o número do departamento como chave.  
 Apenas a coluna Localização foi expandida.  
 Criada uma nova coluna Departamento_Localização, combinando as colunas Nome do Departamento e Localização separadas por espaço.  
-##🔹 Explicação: Mesclar vs. Atribuir  
+🔹 Explicação: Mesclar vs. Atribuir  
 O recurso Mesclar foi utilizado porque queremos transformar duas colunas em uma única, sem a necessidade de criar colunas adicionais.  
 O uso de Atribuir acrescentaria uma nova coluna ao invés de simplesmente combinar as já existentes.  
 ## 🚀 Conclusão
